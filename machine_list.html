@@ -1,0 +1,109 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="flex h-screen">
+  
+  <div class="w-1/5 bg-white dark:bg-zinc-800 p-4">
+    <h2 class="text-xl font-bold mb-4">Machine List</h2>
+    <nav class="space-y-2">
+      <div class="flex items-center space-x-2">
+        <svg class="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+          <path d="M10 2a8 8 0 100 16 8 8 0 000-16zm1 11H9v2h2v-2zm0-8H9v6h2V5z" />
+        </svg>
+        <a href="#" class="text-green-500 font-medium">List</a>
+      </div>
+      <div class="flex items-center space-x-2">
+        <svg class="w-5 h-5 text-zinc-500" fill="currentColor" viewBox="0 0 20 20">
+          <path d="M10 2a8 8 0 100 16 8 8 0 000-16zm1 11H9v2h2v-2zm0-8H9v6h2V5z" />
+        </svg>
+        <a href="#" class="text-zinc-500">Home</a>
+      </div>
+      <div class="flex items-center space-x-2">
+        <svg class="w-5 h-5 text-zinc-500" fill="currentColor" viewBox="0 0 20 20">
+          <path d="M10 2a8 8 0 100 16 8 8 0 000-16zm1 11H9v2h2v-2zm0-8H9v6h2V5z" />
+        </svg>
+        <a href="#" class="text-zinc-500">Radio</a>
+      </div>
+    </nav>
+  </div>
+  
+  <div class="w-4/5 bg-zinc-100 dark:bg-zinc-900 p-4">
+    <div class="flex justify-between items-center mb-4">
+      <div class="flex items-center space-x-2">
+        <input type="text" placeholder="Search machines..." class="p-2 border rounded-lg dark:bg-zinc-700 dark:text-white">
+        <button class="p-2 border rounded-lg bg-green-500 text-white">Filter</button>
+      </div>
+      <div class="flex items-center space-x-2">
+        <button class="p-2 border rounded-lg bg-zinc-200 dark:bg-zinc-700">
+          <img src="https://placehold.co/20x20" alt="grid view">
+        </button>
+        <button class="p-2 border rounded-lg bg-zinc-200 dark:bg-zinc-700">
+          <img src="https://placehold.co/20x20" alt="list view">
+        </button>
+      </div>
+    </div>
+<table class="min-w-full bg-white dark:bg-zinc-800">
+  <thead>
+    <tr>
+      <th class="p-2 border-b">ID</th>
+      <th class="p-2 border-b">Title</th>
+      <th class="p-2 border-b">Project</th>
+      <th class="p-2 border-b">Priority</th>
+      <th class="p-2 border-b">Date</th>
+      <th class="p-2 border-b">Owner</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="p-2 border-b">FIG-123</td>
+      <td class="p-2 border-b">Task 1</td>
+      <td class="p-2 border-b">Project 1</td>
+      <td class="p-2 border-b">High</td>
+      <td class="p-2 border-b">Dec 5</td>
+      <td class="p-2 border-b">
+        <img src="https://placehold.co/20x20" alt="owner" class="rounded-full">
+      </td>
+    </tr>
+    
+  </tbody>
+</table>
+  </div>
+</div>
+
+<div class="bg-green-500 p-4 mt-auto">
+  <div class="flex justify-between text-white">
+    <div>
+      <img src="https://placehold.co/50x50" alt="Checkyard Logo" class="mb-2">
+      <div class="flex space-x-2">
+        <a href="#"><img src="https://placehold.co/20x20" alt="Facebook"></a>
+        <a href="#"><img src="https://placehold.co/20x20" alt="LinkedIn"></a>
+        <a href="#"><img src="https://placehold.co/20x20" alt="YouTube"></a>
+        <a href="#"><img src="https://placehold.co/20x20" alt="Instagram"></a>
+      </div>
+    </div>
+    <div class="space-y-2">
+      <div>Topic</div>
+      <div>Page</div>
+      <div>Page</div>
+      <div>Page</div>
+    </div>
+    <div class="space-y-2">
+      <div>Topic</div>
+      <div>Page</div>
+      <div>Page</div>
+      <div>Page</div>
+    </div>
+    <div class="space-y-2">
+      <div>Topic</div>
+      <div>Page</div>
+      <div>Page</div>
+      <div>Page</div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>
